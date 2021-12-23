@@ -1,0 +1,22 @@
+{
+    "name": "Yellow",
+    "symbol": "",
+    "image": "17.png",
+    "collection": {
+      "name": "Web3 Triangle"
+   },
+    "properties": {
+      "files": [
+        {
+          "uri": "17.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "5ygjKAYyjoZ4LVBQv4tVDsPthD5oFgsbX4F8wqDSMT83",
+          "share": 100
+        }
+      ]
+    }
+  }

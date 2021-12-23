@@ -30,12 +30,17 @@
 
 .header {
   margin: 0;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
+  font-family: ;
+  background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sub-text {
-  font-size: 25px;
+  font-size: 28px;
+  padding-bottom: 20px;
 }
 
 .gradient-text {
@@ -46,6 +51,7 @@
 }
 
 .cta-button {
+  color: #FFFFFF;
   height: 45px;
   border: 0;
   width: auto;
@@ -55,6 +61,9 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+  background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+  border: 0;
+  color: rgba(var(--text-color));
 }
 
 .connect-wallet-button {
@@ -79,7 +88,7 @@
   width: 100%;
   bottom: 0;
   left: 0;
-  /* padding-bottom: 45px; */
+  padding-bottom: 20px;
 }
 
 .twitter-logo {

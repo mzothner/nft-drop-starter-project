@@ -10,10 +10,10 @@
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1.5rem;
   justify-items: center;
-  margin: 0;
+  margin: 20;
   padding: 20px 0 20px 0;
 }
 
@@ -26,8 +26,13 @@
 }
 
 .gif-item img {
-  width: 100%;
+  width: 80%;
   height: 200px;
+  padding-bottom: 20px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.gif-item .gif-text {
+  color: #FFFFFF;
 }
