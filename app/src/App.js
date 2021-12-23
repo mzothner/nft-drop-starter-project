@@ -78,9 +78,8 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <p className="header">Triangle NFTs</p>
-          <p className="sub-text">NFT drop for the Web3 Triangle Meetup.</p>
-          <h4>Mint price is 0.1 SOL</h4>
-          <h4>All proceeds donated to Web3 Triangle Hackathon 🚀</h4>
+          <p className="sub-text">NFT drop for the Web3 Triangle Meetup 🚀</p>
+          <h4>Mint price is 0.1 SOL on Devnet</h4>
            {!walletAddress && renderNotConnectedContainer()}
         </div>
         {/* Check for walletAddress and then pass in walletAddress */}
